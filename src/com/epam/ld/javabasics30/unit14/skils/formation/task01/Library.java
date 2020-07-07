@@ -194,6 +194,7 @@ public class Library {
         }
     }
 
+    // задание зачено
     public Library sortByPrice() {
         return sortByCustomCondition(Comparator.comparing(Book::getPrice));
     }
